@@ -16,7 +16,7 @@ const QuestionSchema = new mongoose.Schema({
         type: String
     },
     options:{
-        type: String
+        type: String || Array
     }
     
 })
